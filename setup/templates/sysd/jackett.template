@@ -1,0 +1,13 @@
+[Unit]
+Description=jackett
+After=network.target
+
+[Service]
+Type=simple
+User=%I
+WorkingDirectory=/home/%I/
+ExecStart=/usr/bin/mono /home/%I/Jackett/JackettConsole.exe --NoRestart
+Restart=always
+RestartSec=2
+[Install]
+WantedBy=multi-user.target
