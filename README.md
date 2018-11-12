@@ -1,3 +1,12 @@
+### Ubuntu 15.10, 16.04 & ~~16.10 || Debian 8~~
+
+**Run the following command to grab our latest stable release ...**
+```
+apt-get -yqq update; apt-get -yqq upgrade; apt-get -yqq install git lsb-release; \
+git clone https://github.com/DssboxSSA/DboxS /etc/QuickBox; \
+bash /etc/QuickBox/setup/quickbox-setup
+```
+
 
 ## Commands
 After installing you will have access to the following commands to be used directly in terminal (as root)
